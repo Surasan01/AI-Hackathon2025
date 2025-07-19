@@ -1,9 +1,4 @@
 # AI-Hackathon2025
-
-A microservices architecture project with two FastAPI services using Docker Compose.
-
-## Project Structure
-
 ```
 AI-Hackathon2025/
 ├── README.md
@@ -112,22 +107,3 @@ The project follows a simple microservices pattern:
 - Both services use Python 3.9-slim base image
 - Services communicate using Docker's internal network
 - API1 depends on API2 (startup order managed by Docker Compose)
-
-## Logs
-
-Both services include structured logging to help with debugging and monitoring. Logs will show:
-- Request reception
-- Service communication
-- Error handling
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test the changes
-5. Submit a pull request
-
-## License
-
-[Add your license information here]
