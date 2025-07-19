@@ -13,7 +13,6 @@ async def forward_request():
     logging.info("API1 received request, forwarding to API2...")
     
     try:
-        # ใช้ httpx เพื่อสร้าง client และยิง request ไปยัง API2
         async with httpx.AsyncClient() as client:
             response = await client.get(API2_URL)
             # if error
